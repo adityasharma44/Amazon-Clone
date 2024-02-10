@@ -1,0 +1,269 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    background-color:#e3e6e6;
+}
+
+.uni-padding{
+    padding: 0px 7px;
+}
+
+/* Navbar CSS */
+
+#navbar-container{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 60px;
+}
+
+#logo img{
+    height: 40px;
+    width: 120px;
+    padding-top: 4px;
+}
+
+#logo{
+    margin: 6px 16px 1px 11px;
+}
+
+.address i{
+    color: white;
+    margin-top: 12px;
+    margin-right: 4px;
+}
+
+.address{
+    display: flex;
+    width: 160px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.address p{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+#search-bar input{
+    width: 450px;
+    height: 40px;
+    vertical-align: middle;
+    font-size: 15px;
+    font-weight: 500;
+    text-indent: 8px;
+}
+
+#search-bar{
+    width: 545px;
+    display: flex;
+    height: 60px;
+    margin: 9px 16px 10px 16px;
+}
+
+#search-all{
+    color: rgb(100, 100, 100);
+    background-color: #f3f3f3;
+    font-family: sans-serif;
+    font-size: 12px;
+    display: flex;
+    height: 39px ;
+    width: 55px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    margin-right: -3px;
+    z-index: 1;
+    border: solid 1px rgb(192, 192, 192);
+}
+
+#search-all p{
+    margin-top: 12px;
+    margin-left: 12px;
+}
+#search-all i{
+    margin-top: 12px;
+    margin-left: 9px;
+}
+
+
+#search-icon{
+    font-family: sans-serif;
+    background-color: #febd69 ;
+    height: 39px ;
+    width: 45px;
+    margin-top: 0.6px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-left: -3px;
+}
+
+#search-icon i{
+    color: rgb(35, 35, 35);
+    font-size: 20px;
+    margin-top: 9px;
+    margin-left: 11px;
+}
+
+.flag{
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    font-family: sans-serif;
+    font-size: 12px;
+    display: flex;
+    height: 35px ;
+    width: 50px;
+    margin-top: 22px;
+    margin-left: 4px;
+}
+
+.loc1{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.loc1 p{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: white;
+}
+
+#loc1 i{
+    font-size: 10px;
+    margin-left: 4px;
+    color: rgb(225, 225, 225);
+    margin-top: 3px;
+}
+
+#navbar2{
+    display: flex;
+    background-color: #232f3e;
+    height: 39px;
+    width: 100%;
+}
+
+#menu-container{
+    display: flex;
+    width: 67%;
+}
+
+#all-contain{
+    display: flex;
+    padding: 8px 10px;
+    margin: 2px;
+    margin-left: 12px;
+}
+
+#main-menu{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    justify-content: flex-end;
+    margin-top: 4px;
+}
+
+#main-menu li{
+    font-family: sans-serif;
+    font-size: 14px;
+    list-style: none;
+    padding: 8px 9px;
+}
+
+/* Navbar CSS ends */
+
+/* banner CSS Starts */
+
+/* #banner{
+    background-image: url(banner-amazon.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 510px;
+    z-index: -1;
+} */
+
+#banner{
+    width: 100%;
+    height: 510px;
+}
+
+.overlay{
+    z-index: -1;
+    opacity: 1;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background: linear-gradient(0deg, #e3e6e6 5%, rgba(100,100,100,0) 95%);
+    background-size: cover;
+}
+
+/* Banner CSS ends */
+
+/* Section CSS Starts */
+
+.sec-4{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    width: 290px;
+}
+
+.sec-4-1{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.sec-4-1 img{
+    height: 110px;
+    width: 120px;
+}
+
+.sec-4-container{
+    display: flex;
+    padding: 20px 7px;
+    margin-top: -290px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(0deg, #e3e6e6 50%, rgba(100,100,100,0) 50%);
+}
+
+#spons{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 330px;
+}
+
+.suit img{
+    height: 200px;
+}
+
+.suit{
+    justify-content: space-evenly;
+}
+
+.foot-list li{
+    padding-bottom: 10px;
+    list-style-type: none;
+    margin: 7px;
+}
+
+.foot-head{
+    padding-bottom: 11px;
+}
+
+.ls-col{
+    padding: 0px 20px;
+    margin: 40px 40px 15px 40px;
+}
+
+#last-foot li{
+    padding-bottom: 0px;
+    margin-bottom: 2px;
+}
